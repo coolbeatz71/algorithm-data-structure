@@ -1,2 +1,2 @@
-# algorithm-data-structure
+# Algorithm and data-structure
 Contains some popular algorithm that I've tried to solve in Javascript
