@@ -73,7 +73,7 @@ function maxSubArraySum(numArray, count) {
   for (let i = count; i < numArray.length; i++) {
     let leftEdge = numArray[i - count];
     let rightEdge = numArray[i];
-    tempSum = tempSum - leftEdge + rightEdge;
+    tempSum += rightEdge - leftEdge;
     maxSum = Math.max(maxSum, tempSum);
   }
   return maxSum;
